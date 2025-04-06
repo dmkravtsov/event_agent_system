@@ -1,0 +1,40 @@
+2025-04-06 12:26:53,543 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
+2025-04-06 12:26:54,005 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
+2025-04-06 12:28:59,470 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
+2025-04-06 12:28:59,871 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
+2025-04-06 12:31:30,168 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
+2025-04-06 12:31:30,640 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
+2025-04-06 12:31:30,643 [ERROR] BaseAgent: TicketmasterAgent: Error: 1 validation error for EventItem
+url
+  URL input should be a string or URL [type=url_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/url_type. Context: {'city': 'Miami', 'start_datetime': '2025-04-06T09:31:30Z', 'end_datetime': '2025-05-06T09:31:30Z', 'keyword': None, 'classificationName': None, 'api_key': 'Z01Pv02mcFl1ooLtctTZY3jMHaUb65DG', 'size': 10}
+2025-04-06 12:33:01,353 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
+2025-04-06 12:33:01,772 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
+2025-04-06 12:35:38,711 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
+2025-04-06 12:35:39,431 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
+2025-04-06 12:35:39,434 [ERROR] BaseAgent: TicketmasterAgent: Error: 1 validation error for EventItem
+start_date
+  Input should be a valid datetime [type=datetime_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/datetime_type. Context: {'city': 'Miami', 'start_datetime': '2025-04-06T09:35:38Z', 'end_datetime': '2025-05-06T09:35:38Z', 'keyword': None, 'classificationName': None, 'api_key': 'Z01Pv02mcFl1ooLtctTZY3jMHaUb65DG', 'size': 100}
+2025-04-06 12:37:06,212 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
+2025-04-06 12:37:06,931 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
+2025-04-06 12:39:51,439 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
+2025-04-06 12:39:52,408 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
+2025-04-06 12:51:48,338 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
+2025-04-06 12:51:48,786 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
+2025-04-06 13:04:43,598 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
+2025-04-06 13:04:44,043 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
+2025-04-06 13:04:44,046 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: London
+2025-04-06 13:04:46,126 [INFO] BaseAgent: SerpApiAgent: Received 10 events from SerpApi
+2025-04-06 13:11:58,891 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
+2025-04-06 13:11:59,332 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
+2025-04-06 13:11:59,338 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: Miami
+2025-04-06 13:12:01,883 [INFO] BaseAgent: SerpApiAgent: Received 10 events from SerpApi
+2025-04-06 14:01:14,770 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
+2025-04-06 14:01:16,696 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
+2025-04-06 14:01:16,702 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: London
+2025-04-06 14:01:17,003 [INFO] BaseAgent: SerpApiAgent: Received 10 events from SerpApi
+2025-04-06 14:16:32,503 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
+2025-04-06 14:16:36,419 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
+2025-04-06 14:16:36,425 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: London
+2025-04-06 14:16:37,382 [INFO] BaseAgent: SerpApiAgent: Received 10 events from SerpApi
