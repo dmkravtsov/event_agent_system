@@ -4,3 +4,6 @@ PyYAML>=6.0
 serpapi
 aiohttp>=3.8
 firebase-admin>=6.4.0
+openai>=1.0
+dateparser>=1.2.0
+
