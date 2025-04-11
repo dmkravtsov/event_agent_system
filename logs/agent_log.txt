@@ -1,40 +1,59 @@
-2025-04-06 12:26:53,543 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
-2025-04-06 12:26:54,005 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
-2025-04-06 12:28:59,470 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
-2025-04-06 12:28:59,871 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
-2025-04-06 12:31:30,168 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
-2025-04-06 12:31:30,640 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
-2025-04-06 12:31:30,643 [ERROR] BaseAgent: TicketmasterAgent: Error: 1 validation error for EventItem
-url
-  URL input should be a string or URL [type=url_type, input_value=None, input_type=NoneType]
-    For further information visit https://errors.pydantic.dev/2.11/v/url_type. Context: {'city': 'Miami', 'start_datetime': '2025-04-06T09:31:30Z', 'end_datetime': '2025-05-06T09:31:30Z', 'keyword': None, 'classificationName': None, 'api_key': 'Z01Pv02mcFl1ooLtctTZY3jMHaUb65DG', 'size': 10}
-2025-04-06 12:33:01,353 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
-2025-04-06 12:33:01,772 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
-2025-04-06 12:35:38,711 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
-2025-04-06 12:35:39,431 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
-2025-04-06 12:35:39,434 [ERROR] BaseAgent: TicketmasterAgent: Error: 1 validation error for EventItem
-start_date
-  Input should be a valid datetime [type=datetime_type, input_value=None, input_type=NoneType]
-    For further information visit https://errors.pydantic.dev/2.11/v/datetime_type. Context: {'city': 'Miami', 'start_datetime': '2025-04-06T09:35:38Z', 'end_datetime': '2025-05-06T09:35:38Z', 'keyword': None, 'classificationName': None, 'api_key': 'Z01Pv02mcFl1ooLtctTZY3jMHaUb65DG', 'size': 100}
-2025-04-06 12:37:06,212 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
-2025-04-06 12:37:06,931 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
-2025-04-06 12:39:51,439 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
-2025-04-06 12:39:52,408 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
-2025-04-06 12:51:48,338 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
-2025-04-06 12:51:48,786 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
-2025-04-06 13:04:43,598 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
-2025-04-06 13:04:44,043 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
-2025-04-06 13:04:44,046 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: London
-2025-04-06 13:04:46,126 [INFO] BaseAgent: SerpApiAgent: Received 10 events from SerpApi
-2025-04-06 13:11:58,891 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: Miami
-2025-04-06 13:11:59,332 [INFO] BaseAgent: TicketmasterAgent: Received 10 events
-2025-04-06 13:11:59,338 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: Miami
-2025-04-06 13:12:01,883 [INFO] BaseAgent: SerpApiAgent: Received 10 events from SerpApi
-2025-04-06 14:01:14,770 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
-2025-04-06 14:01:16,696 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
-2025-04-06 14:01:16,702 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: London
-2025-04-06 14:01:17,003 [INFO] BaseAgent: SerpApiAgent: Received 10 events from SerpApi
-2025-04-06 14:16:32,503 [INFO] BaseAgent: TicketmasterAgent: Sending request to Ticketmaster API for city: London
-2025-04-06 14:16:36,419 [INFO] BaseAgent: TicketmasterAgent: Received 100 events
-2025-04-06 14:16:36,425 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: London
-2025-04-06 14:16:37,382 [INFO] BaseAgent: SerpApiAgent: Received 10 events from SerpApi
+2025-04-11 14:44:30,586 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 0 for city: London
+2025-04-11 14:44:31,646 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 1 for city: London
+2025-04-11 14:44:32,356 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 2 for city: London
+2025-04-11 14:44:33,060 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 3 for city: London
+2025-04-11 14:44:33,786 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 4 for city: London
+2025-04-11 14:44:34,408 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 5 for city: London
+2025-04-11 14:44:35,177 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 6 for city: London
+2025-04-11 14:44:35,927 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 7 for city: London
+2025-04-11 14:44:36,626 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 8 for city: London
+2025-04-11 14:44:37,284 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 9 for city: London
+2025-04-11 14:44:37,998 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 10 for city: London
+2025-04-11 14:49:02,026 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 0 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:03,976 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 1 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:04,739 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 2 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:05,426 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 3 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:06,026 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 4 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:06,616 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 5 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:07,300 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 6 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:08,068 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 7 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:08,710 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 8 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:09,885 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 9 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 14:49:10,492 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 10 for London | 2025-04-11T11:49:01Z → 2025-06-10T11:49:01Z
+2025-04-11 15:03:11,156 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 0 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:12,917 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 1 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:13,666 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 2 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:14,394 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 3 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:14,999 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 4 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:15,605 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 5 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:16,307 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 6 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:17,024 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 7 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:17,632 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 8 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:18,310 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 9 for London | 2025-04-11T12:03:11Z → 2025-06-10T12:03:11Z
+2025-04-11 15:03:18,942 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 0 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:19,655 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 1 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:20,346 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 2 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:21,027 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 3 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:22,026 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 4 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:22,734 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 5 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:23,460 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 6 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:24,128 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 7 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:24,826 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 8 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:25,545 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 9 for London | 2025-06-10T12:03:11Z → 2025-08-09T12:03:11Z
+2025-04-11 15:03:26,242 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 0 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:26,967 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 1 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:27,646 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 2 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:28,371 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 3 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:29,097 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 4 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:29,767 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 5 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:30,447 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 6 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:31,156 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 7 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:31,871 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 8 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:32,576 [INFO] BaseAgent: TicketmasterAgent: Requesting Ticketmaster page 9 for London | 2025-08-09T12:03:11Z → 2025-10-08T12:03:11Z
+2025-04-11 15:03:33,335 [INFO] BaseAgent: TicketmasterAgent: Parsed total 3000 events from Ticketmaster
+2025-04-11 15:03:33,336 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: London
+2025-04-11 15:03:36,855 [INFO] BaseAgent: SerpApiAgent: Received 20 events from SerpApi
+2025-04-11 15:03:37,969 [INFO] BaseAgent: PredictHQAgent: PredictHQAgent parsed 50 events
+2025-04-11 15:30:53,329 [INFO] BaseAgent: PredictHQAgent: PredictHQAgent parsed 2500 events
+2025-04-11 16:03:26,310 [INFO] BaseAgent: SerpApiAgent: Sending request to SerpApi for city: London
+2025-04-11 16:03:46,926 [INFO] BaseAgent: SerpApiAgent: Received 90 unique events from SerpApi

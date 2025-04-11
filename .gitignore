@@ -8,6 +8,9 @@ __pycache__/
 # Virtual environment
 venv/
 
+notebooks/
+data/
+
 # VSCode settings
 .vscode/
 
@@ -20,9 +23,9 @@ config.yaml
 firebase/*.json
 
 # Logs and results — KEEP in repo
-!logs/
-!logs/*.log
-!results.json
+logs/
+
+
 
 # Misc
 .env
